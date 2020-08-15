@@ -9,38 +9,39 @@ export class NavCategory extends Component {
 
     this.state = {
       category: [
-        { type: "Home", categoryUrl: "" },
-        { type: "Entertainment", categoryUrl: "&category=entertainment" },
-        { type: "Sports", categoryUrl: "&category=sports" },
-        { type: "Buisness", categoryUrl: "&category=business" },
-        { type: "Health", categoryUrl: "&category=health" },
-        { type: "Science", categoryUrl: "&category=science" },
-        { type: "Technology", categoryUrl: "&category=technology" },
+        { type: "Home", categoryUrl: "/home/feed" },
+        { type: "India News", categoryUrl: "/news/india/feed" },
+        { type: "World News", categoryUrl: "/news/world/feed" },
+        { type: "Entertainment", categoryUrl: "/entertainment/bollywood/feed" },
+        { type: "Crime", categoryUrl: "/news/crime/feed" },
+        { type: "Sports", categoryUrl: "/sports/feed" },
+        { type: "Buisness", categoryUrl: "/business/feed" },
+        { type: "Health", categoryUrl: "/lifestyle/health/feed" },
+        { type: "Technology", categoryUrl: "/technology/feed" },
+        { type: "Covid-19", categoryUrl: "/latest-news/covid-19/feed" },
+        { type: "Coronavirus", categoryUrl: "/latest-news/coronavirus/feed" },
       ],
-      selectedCategory: "",
+      selectedCategory: "/home/feed",
     };
   }
 
   ClickHandler = (url) => {
-    this.setState(
-      {
-        selectedCategory: url,
-      },
-      () => {
-        console.log(this.state.selectedCategory);
-      }
-    );
+    this.setState({
+      selectedCategory: url,
+    });
   };
   render() {
+   
     let cat = this.state.category.map((c) => (
       <li key={c.type}>
-        {/* <NavLink to={c.type} state={c.categoryUrl} onClick={() => this.ClickHandler(c.categoryUrl)}> */}
-          
-          <NavLink onClick={this.props.clicked}
-         to={{
-        pathname: `/${c.type}`,
-        state: `${c.categoryUrl}`,
-      }}>
+     
+        <NavLink
+          onClick={this.props.clicked}
+          to={{
+            pathname: `/NewsApp-using-React/${c.type}`,
+            state: `${c.categoryUrl}`,
+          }}
+        >
           {c.type}
         </NavLink>
       </li>
@@ -57,20 +58,3 @@ export class NavCategory extends Component {
 
 export default NavCategory;
 
-//   let catgory = [
-//     { type: "Home", categoryUrl: "" },
-//     { type: "Entertainment", categoryUrl: "&category=entertainment" },
-//     { type: "Sports", categoryUrl: "&category=sports" },
-//   ];
-
-//   let cat = catgory.map(
-//       (c) =>
-//         <li key={c.type}
-
-//         >{c.type}</li>);
-//   return (
-//     <div>
-//       <ul>{cat}</ul>
-//     </div>
-//   );
-// }

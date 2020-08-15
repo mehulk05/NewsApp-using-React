@@ -10,11 +10,7 @@ function Newslist(props) {
   const [err, seterr] = useState(null);
   const [loading, setloading] = useState(true);
   const [cat, setCat] = useState(null);
-  
-  // const rerenderParentCallback=()=> {
-  //   console.log("rerender parent")
-  //   this.forceUpdate();
-  // }
+
 
   let url1 = `https://newsapi.org/v2/top-headlines?country=in&apiKey=9e3a2c43de094c8c8aa85c654036e441`;
   if(cat===undefined)
@@ -32,6 +28,45 @@ function Newslist(props) {
 
   }, [props.location.state]);
 
+  // let url3="https://cors-anywhere.herokuapp.com/https://timesofindia.indiatimes.com/rssfeedstopstories.cms?feedtype=json"
+  // useEffect(() => {
+  //   const axiosConfig = {
+  //     'Access-Control-Allow-Credentials':true,
+  //     'Access-Control-Allow-Origin': url3,
+  //     headers: {"Access-Control-Allow-Origin": "*"}
+  //   };
+  //   Axios.get(url3,{
+  //     method: 'GET',
+  //     headers : new Headers ({
+  //       'Accept':'text/html',
+  //       'content-type': 'application/x-www-form-urlencoded',
+  //       'Access-Control-Allow-Origin': '*',
+  //       'Access-Control-Allow-Methods': 'GET, POST, PUT',
+  //       'Access-Control-Allow-Headers': 'Content-Type',  
+  //     }),
+  //     mode:'no-cors'
+  //     })
+     
+  // .then(data =>
+  //   {
+  //     let d=data.data.channel.item
+  //     console.log(d)
+  //     setloading(false)
+  //     setPost(d)
+  //     // d=d.split(`meta property`)
+  //     // let d2=d
+  //     // let fst=`content="`
+  //     // let sec=`"/>`
+  //     // let d3=d2[3].match(new RegExp(fst + "(.*)" + sec));
+  //     // console.log(d3[1],d2[3])
+  //   } )
+  //     .catch((e) => {
+  //       setloading(false);
+  //       seterr(e.toJSON());
+  //       console.log(e);
+  //     });
+  // }, [url3]);
+ 
   useEffect(() => {
     Axios.get(url1)
       .then((data) => {
@@ -109,6 +144,7 @@ function Newslist(props) {
  
   return (
     <div>
+      
       <div className="container">
         {rendered}
       </div>
