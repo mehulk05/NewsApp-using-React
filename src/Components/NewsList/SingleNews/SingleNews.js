@@ -12,13 +12,15 @@ export class SingleNews extends Component {
   }
 }
   componentDidMount(){
-    //this.props.location.state=this.props.location.customObject
+    console.log(this.props)
+   
     this.setState({
       news:this.props.location.state
     },
     )
  }
   render() {
+    console.log(this.props,this.state)
      return (
     <div className="container">
      

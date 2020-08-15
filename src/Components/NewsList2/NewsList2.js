@@ -12,6 +12,7 @@ function NewsList2(props) {
   const [err, seterr] = useState(null);
   const [loading, setloading] = useState(true);
   const [cat, setCat] = useState(null);
+  
 
   let url1 = `https://cors-anywhere.herokuapp.com/https://www.abplive.com/home/feed`;
   if (cat === undefined || cat === null) {
@@ -27,7 +28,7 @@ function NewsList2(props) {
 
  
   useEffect(() => {
-    //  console.log(props.location.state,url1,cat)
+     // console.log(props.location.state,url1,cat)
     Axios.get(url1, {
       headers: new Headers({
         Accept: "text/html",
@@ -76,6 +77,7 @@ function NewsList2(props) {
           p[9].attributes.url,
           p[3].value,
         ],
+        
       }}
     >
       <div className={`card ${classes.card}`} style={{}}>

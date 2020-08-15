@@ -18,7 +18,7 @@ export class NavCategory extends Component {
         { type: "Buisness", categoryUrl: "/business/feed" },
         { type: "Health", categoryUrl: "/lifestyle/health/feed" },
         { type: "Technology", categoryUrl: "/technology/feed" },
-        { type: "Covid-19", categoryUrl: "/latest-news/covid-19/feed" },
+        { type: "COVID-19", categoryUrl: "/latest-news/covid-19/feed" },
         { type: "Coronavirus", categoryUrl: "/latest-news/coronavirus/feed" },
       ],
       selectedCategory: "/home/feed",
@@ -38,7 +38,7 @@ export class NavCategory extends Component {
         <NavLink
           onClick={this.props.clicked}
           to={{
-            pathname: `/NewsApp-using-React/${c.type}`,
+            pathname: `/${c.type}`,
             state: `${c.categoryUrl}`,
           }}
         >
