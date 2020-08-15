@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NewsApp-using-React/static/css/main.e5684c38.chunk.css",
+    "main.css": "/NewsApp-using-React/static/css/main.422aea9c.chunk.css",
     "main.js": "/NewsApp-using-React/static/js/main.0413075e.chunk.js",
     "main.js.map": "/NewsApp-using-React/static/js/main.0413075e.chunk.js.map",
     "runtime-main.js": "/NewsApp-using-React/static/js/runtime-main.ba763ae7.js",
@@ -9,17 +9,17 @@
     "static/js/2.1f72402d.chunk.js": "/NewsApp-using-React/static/js/2.1f72402d.chunk.js",
     "static/js/2.1f72402d.chunk.js.map": "/NewsApp-using-React/static/js/2.1f72402d.chunk.js.map",
     "index.html": "/NewsApp-using-React/index.html",
-    "precache-manifest.4fef5454b358619d28e1532dfd7ee48d.js": "/NewsApp-using-React/precache-manifest.4fef5454b358619d28e1532dfd7ee48d.js",
+    "precache-manifest.39377ee6dfac464100c44812825d09be.js": "/NewsApp-using-React/precache-manifest.39377ee6dfac464100c44812825d09be.js",
     "service-worker.js": "/NewsApp-using-React/service-worker.js",
     "static/css/2.ceb79488.chunk.css.map": "/NewsApp-using-React/static/css/2.ceb79488.chunk.css.map",
-    "static/css/main.e5684c38.chunk.css.map": "/NewsApp-using-React/static/css/main.e5684c38.chunk.css.map",
+    "static/css/main.422aea9c.chunk.css.map": "/NewsApp-using-React/static/css/main.422aea9c.chunk.css.map",
     "static/js/2.1f72402d.chunk.js.LICENSE.txt": "/NewsApp-using-React/static/js/2.1f72402d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ba763ae7.js",
     "static/css/2.ceb79488.chunk.css",
     "static/js/2.1f72402d.chunk.js",
-    "static/css/main.e5684c38.chunk.css",
+    "static/css/main.422aea9c.chunk.css",
     "static/js/main.0413075e.chunk.js"
   ]
 }
