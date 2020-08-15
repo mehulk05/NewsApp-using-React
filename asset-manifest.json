@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/NewsApp-using-React/static/css/main.a6dd68e4.chunk.css",
-    "main.js": "/NewsApp-using-React/static/js/main.9ce62dbb.chunk.js",
-    "main.js.map": "/NewsApp-using-React/static/js/main.9ce62dbb.chunk.js.map",
+    "main.css": "/NewsApp-using-React/static/css/main.e5684c38.chunk.css",
+    "main.js": "/NewsApp-using-React/static/js/main.484f8564.chunk.js",
+    "main.js.map": "/NewsApp-using-React/static/js/main.484f8564.chunk.js.map",
     "runtime-main.js": "/NewsApp-using-React/static/js/runtime-main.ba763ae7.js",
     "runtime-main.js.map": "/NewsApp-using-React/static/js/runtime-main.ba763ae7.js.map",
     "static/css/2.ceb79488.chunk.css": "/NewsApp-using-React/static/css/2.ceb79488.chunk.css",
-    "static/js/2.bde46551.chunk.js": "/NewsApp-using-React/static/js/2.bde46551.chunk.js",
-    "static/js/2.bde46551.chunk.js.map": "/NewsApp-using-React/static/js/2.bde46551.chunk.js.map",
+    "static/js/2.1f72402d.chunk.js": "/NewsApp-using-React/static/js/2.1f72402d.chunk.js",
+    "static/js/2.1f72402d.chunk.js.map": "/NewsApp-using-React/static/js/2.1f72402d.chunk.js.map",
     "index.html": "/NewsApp-using-React/index.html",
-    "precache-manifest.0f99c864b30d415e089f25386b8f11e5.js": "/NewsApp-using-React/precache-manifest.0f99c864b30d415e089f25386b8f11e5.js",
+    "precache-manifest.43b3343ec7a2f8e0b57c6b0a607eaf1d.js": "/NewsApp-using-React/precache-manifest.43b3343ec7a2f8e0b57c6b0a607eaf1d.js",
     "service-worker.js": "/NewsApp-using-React/service-worker.js",
     "static/css/2.ceb79488.chunk.css.map": "/NewsApp-using-React/static/css/2.ceb79488.chunk.css.map",
-    "static/css/main.a6dd68e4.chunk.css.map": "/NewsApp-using-React/static/css/main.a6dd68e4.chunk.css.map",
-    "static/js/2.bde46551.chunk.js.LICENSE.txt": "/NewsApp-using-React/static/js/2.bde46551.chunk.js.LICENSE.txt"
+    "static/css/main.e5684c38.chunk.css.map": "/NewsApp-using-React/static/css/main.e5684c38.chunk.css.map",
+    "static/js/2.1f72402d.chunk.js.LICENSE.txt": "/NewsApp-using-React/static/js/2.1f72402d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ba763ae7.js",
     "static/css/2.ceb79488.chunk.css",
-    "static/js/2.bde46551.chunk.js",
-    "static/css/main.a6dd68e4.chunk.css",
-    "static/js/main.9ce62dbb.chunk.js"
+    "static/js/2.1f72402d.chunk.js",
+    "static/css/main.e5684c38.chunk.css",
+    "static/js/main.484f8564.chunk.js"
   ]
 }
