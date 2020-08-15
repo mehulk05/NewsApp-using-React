@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f952f30bc2c11217efc13d823b0fd65",
+    "revision": "58bb2facbb9db4a838616f6fad212de9",
     "url": "/NewsApp-using-React/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NewsApp-using-React/static/css/2.ceb79488.chunk.css"
   },
   {
-    "revision": "587d3e5a5aa0b0ae7940",
+    "revision": "2621dfb69bede69a0604",
     "url": "/NewsApp-using-React/static/css/main.e5684c38.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NewsApp-using-React/static/js/2.1f72402d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "587d3e5a5aa0b0ae7940",
-    "url": "/NewsApp-using-React/static/js/main.3790b08a.chunk.js"
+    "revision": "2621dfb69bede69a0604",
+    "url": "/NewsApp-using-React/static/js/main.0413075e.chunk.js"
   },
   {
     "revision": "903062bbd3cf05569883",
